@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api-proxy/:path*",
-      "destination": "http://sua-api-http.com*"
+      "destination": "http://dados.apac.pe.gov.br:41120/hidrolink/v2/api.php/tendencia_precipitacao*"
     }
   ]
 }
