@@ -78,7 +78,7 @@ function aplicarCor(elemento, categoria) {
 
 
 
-fetch ('https://dados.apac.pe.gov.br:41120/hidrolink/v2/api.php/tendencia_precipitacao')
+fetch ('http://dados.apac.pe.gov.br:41120/hidrolink/v2/api.php/tendencia_precipitacao')
     .then(resposta => {
         if (resposta.ok) {
             return resposta.json();
