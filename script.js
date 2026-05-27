@@ -78,7 +78,7 @@ function aplicarCor(elemento, categoria) {
 
 
 
-fetch ('http://api-proxy/')
+fetch ('/api-proxy/:path*')
     .then(resposta => {
         if (resposta.ok) {
             return resposta.json();
